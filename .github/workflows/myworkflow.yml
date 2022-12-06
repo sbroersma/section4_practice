@@ -1,0 +1,19 @@
+name: GitHub Actions Demo
+on: [push]
+jobs:
+  job1:
+    name: job1
+    runs-on: ubuntu-latest
+    steps:
+      - name: step1
+        run: echo "action 1"
+      - name: step2
+        run: echo "action 2"
+  job2:
+    name: job2
+    runs-on: ubuntu-latest
+    steps:
+      - name: step1
+        run: echo "action 3"
+      - name: step2
+        run: echo "action 4"
